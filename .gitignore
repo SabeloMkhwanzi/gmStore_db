@@ -1,0 +1,96 @@
+# Ignore build outputs and related files
+bin/
+obj/
+out/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if using the new format of project.json
+# project.lock.json
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code settings and backups
+.vscode/
+.history/
+
+# Ignore temporary files
+*.temp
+*.TMP
+*.tmp
+
+# Ignore publish outputs
+publish/
+publishoutput/
+app.publish/
+
+# Ignore local environment settings
+.env
+.env.*
+
+# Ignore logs and debugging files
+*.log
+logs/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Resharper files
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Ignore file-based secrets (example: user secrets)
+secrets.json
+
+# Ignore ASP.NET Scaffolding items
+.scaffolding/
+
+# Ignore JetBrains Rider
+.idea/
+
+# Ignore Test Results
+TestResults/
+
+# Ignore IDE specific folders
+/.vs/
+.vs/
+
+# Ignore Coverage files
+coverage/
+
+# Ignore crash reports, diagnostic settings
+crashlytics/
+diagnostic/
+
+# Ignore MacOS Finder files
+.DS_Store
+
+# Ignore Thumbs.db for Windows
+Thumbs.db
+
+# Ignore sensitive settings files
+*.secret.json
+
+# Ignore compiled static files
+**/wwwroot/
+**/node_modules/
+
+# Ignore local Docker files
+.docker/
+
+# Ignore tool-specific generated files
+*.diff
+*.patch
